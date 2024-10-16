@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+    content="Daftara-Task">
+
+    <title>Daftara-Task</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+
+    <script src="./js/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+<div class="menumobile_profile" id="menumobile_profile">
+        <div class="profile-user">
+            <img src="./images/profile.svg" alt="user-image" style="width: 70px;" />
+            <div class="profie_namejob">
+                <span class="profile_name" id="profilename_mobile">Ahmed Amaar</span>
+                <span id="profilejob_mobile">UX UI designer</span>
+            </div>
+            <img src="./images/rightvectop.svg" class="right_arrow" alt="right_arrow">
+        </div>
+        <div class="option_profile">
+            <div class="option_proftext ">
+                <img src="./images/Work (4).svg" class="nav_imgiconsmall" alt="home_icon"/>
+
+                <div class="nav_title">
+                    Home
+                </div>
+
+            </div>
+            <div class="option_proftext">
+
+                <img src="./images/Bag.svg" class="nav_imgiconsmall" alt="job_icon"/>
+
+                <div class="nav_title">
+                    jobs
+                </div>
+            </div>
+            <div class="option_proftext">
+
+                <img src="./images/3 User.svg" class="nav_imgiconsmall" alt="Employers_icon" />
+
+                <div class="nav_title">
+                    Employers
+                </div>
+            </div>
+            <div class="option_proftext">
+
+                <img src="./images/Work (2).svg" class="nav_imgiconsmall" alt="Notifications_icon"/>
+
+                <div class="nav_title">
+                    Notifications
+                </div>
+            </div>
+            <div class="option_proftext">
+
+                <img src="./images/Work (3).svg" class="nav_imgiconsmall" alt="Messaging_icon" />
+
+                <div class="nav_title">
+                    Messaging
+                </div>
+            </div>
+
+
+        </div>
+        <div class="option_profile">
+            <div class="option_proftext">Setting and privacy</div>
+            <div class="option_proftext">Language</div>
+            <div class="option_proftext">Help</div>
+        </div>
+        <div class="logout_txt">Logout</div>
+    </div>
+
+    <header>
+        <div class="wrabber">
+
+            <div class="left-nav">
+                <div class="navbar_logo"><img src="./images/logo.svg" alt="logo"> </div>
+                <div class="navbar_search">
+
+                    <img src="./images/search.svg" alt="searchicon" id="search_icon"/>
+                    <input type="text" placeholder="Search by name, job title, ..." class="search_input">
+                </div>
+
+            </div>
+            <ul class="right-nav">
+
+                <li class="nav_option">
+                    <img src="./images/home.svg" class="nav_imgicon"  alt="home_icon"/>
+                    <div class="nav_title">
+                        Home
+                    </div>
+                </li>
+                <li class="nav_option">
+                    <img src="./images/jobs.svg" class="nav_imgicon" alt="job_icon"/>
+                    <div class="nav_title">
+                        jobs
+                    </div>
+                </li>
+                <li class="nav_option">
+                    <img src="./images/employesss.svg" class="nav_imgicon"  alt="Employers_icon"/>
+                    <div class="nav_title">
+                        Employers
+                    </div>
+                </li>
+                <li class="nav_option">
+                    <div class="veticl_sep">
+
+                    </div>
+                </li>
+                <li class="nav_option">
+                    <img src="./images/notification.svg" class="nav_imgicon"  alt="Notifications_icon"/>
+                    <div class="nav_title">
+                        Notifications
+                    </div>
+                </li>
+                <li class="nav_option">
+                    <img src="./images/message.svg" class="nav_imgicon"  alt="Messaging_icon"/>
+                    <div class="nav_title">
+                        Messaging
+                    </div>
+                </li>
+
+                <li class="nav_option profile_sec" id="profile_sec">
+                    <div>
+                        <img src="./images/profile.svg"  alt="image_user" id="image_user"/>
+
+                    </div>
+                    <div class="mobile_extendprofile">
+                        <img src="./images/mobileprofileimg.svg" alt="menu_ison" />
+                    </div>
+                    <div class="nav_title nav_profile">
+                        Profile <img src="./images/Symbol.svg" alt="arrow_down">
+                    </div>
+                    <div class="profile_option">
+                        <div class="profile-user">
+                            <img src="./images/profile.svg" alt="user-image" style="width: 70px;" />
+                            <div class="profie_namejob">
+                                <span class="profile_name">Ahmed Amaar</span>
+                                <span>UX UI designer</span>
+                            </div>
+                            <img src="./images/rightvectop.svg" class="right_arrow" alt="right_arrow">
+                        </div>
+                        <div class="option_profile">
+                            <div class="option_proftext">Setting and privacy</div>
+                            <div class="option_proftext">Language</div>
+                            <div class="option_proftext">Help</div>
+                        </div>
+                        <div class="logout_txt">Logout</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <aside class="aside_container" id="aside_container">
+
+
+            <div class="menu_top">
+
+                <div id="back_menu">
+                    <img src="./images/Group 157.svg" id="back_arrow" alt="back_img"/>
+                    <span class="menu_title">Menu</span>
+                </div>
+
+                <div class="operation_menu">
+                    <img src="./images/setting.svg" class="setting_bar" alt="setting_bar">
+                    <div class="check_close">
+                                                <img src="./images/simple-line-icons_close.svg" alt="close_img" id="close_menu">
+
+                        <img src="./images/simple-line-icons_check.svg" alt="check_img" id="check_menu">
+                    </div>
+                </div>
+            </div>
+            <div class="menu_container">
+                <ul class="main_ulmenu">
+                    <li>
+
+                        <a class="main_setting" href="#">
+                            <div  class="itemdot_container"><img class="con-park-outline"
+                                    src="./images//icon-park-outline_drag.svg" alt="outline_img">
+                                <span>Dashboard</span>
+                                </div>
+                            <div class="operation_menuparent">
+                                <div class="operation_menusub">
+                                    <img class="edit_menu" src="./images/fluent_edit-32-regular.svg" alt="edit_icon">
+                                    <div class="eye_container">
+                                        <img src="./images/Eye icon (2).svg" class="eyeIcon" alt="aye_icon">
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </a>
+                    </li>
+                    <li> <a class="main_setting hide" href="#">
+                            <div class="itemdot_container"><img class="con-park-outline"
+                                    src="./images//icon-park-outline_drag.svg" alt="outline_img">
+                                <span>Job application</span>
+                                </div>
+                            <div class="operation_menuparent">
+                                <div class="operation_menusub" >
+                                    <img class="edit_menu" src="./images/fluent_edit-32-regular.svg" alt="edit_icon">
+                                    <div class="eye_container">
+                                        <img src="./images/Eye icon (2).svg" class="eyeIcon"">
+                                    </div>
+
+                                </div>
+                                <img src="./images/uparrow.svg" class="menu_up" alt="arrow_up">
+                            </div>
+
+                        </a>
+                        <ul class="sub_ulmenu">
+                            <li class="sub_setting">
+
+                                <div class="itemdot_container"><img class="con-park-outline"
+                                        src="./images//icon-park-outline_drag.svg" alt="outline_img">
+                                    <span>John Doe</span>
+                                    </div>
+                                <div class="operation_menuparent">
+                                    <div class="operation_menusub" >
+                                        <img class="edit_menu" src="./images/fluent_edit-32-regular.svg"
+                                        alt="edit_icon"
+                                        >
+                                        <div class="eye_container">
+                                            <img src="./images/Eye icon (1).svg"
+                                            alt="eyeIcon"
+                                                class="eyeIcon"">
+                                            
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="sub_setting">
+
+
+                                <div class="itemdot_container"><img class="con-park-outline"
+                                        src="./images//icon-park-outline_drag.svg" alt="outline_img">James Bond</div>
+                                <div class="operation_menuparent">
+                                    <div class="operation_menusub" >
+                                        <img class="edit_menu" src="./images/fluent_edit-32-regular.svg" alt="edit_icon">
+                                        <div class="eye_container">
+                                            <img src="./images/Eye icon (1).svg" class="eyeIcon" alt="eyeIcon">
+                                                                                    
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="sub_setting hide">
+
+                                <div class="itemdot_container"><img class="con-park-outline"
+                                        src="./images/disabledot.svg" alt="outline_img">
+                                        
+                                        <span>Scarlett Johansson</span>
+                                    </div>
+                                <div class="operation_menuparent">
+                                    <div class="operation_menusub" >
+                                        <img class="edit_menu" src="./images/fluent_edit-32-regular.svg" alt="edit_icon">
+                                        <div class="eye_container">
+                                            <img src="./images/Eye icon (1).svg"
+                                                class="eyeIcon" alt="eyeIcon">
+                                            
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </li>
+                
+                    <li> <a class="main_setting" href="#">
+
+                            <div class="itemdot_container"><img class="con-park-outline"
+                                    src="./images//icon-park-outline_drag.svg" alt="outline_img">
+                                <span>Qualifications</span>
+                                </div>
+                            <div class="operation_menuparent">
+                                <div class="operation_menusub" style="">
+                                    <img class="edit_menu" src="./images/fluent_edit-32-regular.svg" alt="edit_icon">
+                                    <div class="eye_container">
+                                        <img src="./images/Eye icon (1).svg" class="eyeIcon"" alt="eyeIcon">
+                                    </div>
+
+                                </div><img src=" ./images/bottomarrow.svg" class="menu_up" alt="arrow_up">
+
+                            </div>
+
+
+                        </a>
+
+
+
+                    </li>
+                    <li>
+
+                        <a class="main_setting" href="#">
+
+                            <div class="itemdot_container"><img class="con-park-outline"
+                                    src="./images//icon-park-outline_drag.svg" alt="outline_img">
+                                <span>About</span>
+                                </div>
+                            <div class="operation_menuparent">
+                                <div class="operation_menusub" >
+                                    <img class="edit_menu" src="./images/fluent_edit-32-regular.svg" alt="edit_icon">
+                                    <div class="eye_container">
+                                        <img src="./images/Eye icon (1).svg" class="eyeIcon" alt="eyeIcon">
+                                                
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </a>
+
+                    </li>
+                    <li>
+                        <a class="main_setting" href="#">
+
+                            <div class="itemdot_container"><img class="con-park-outline"
+                                    src="./images//icon-park-outline_drag.svg" alt="outline_img"><span>Contact</span></div>
+                            <div class="operation_menuparent">
+                                <div class="operation_menusub" >
+                                    <img class="edit_menu" src="./images/fluent_edit-32-regular.svg" alt="edit_icon">
+                                    <div class="eye_container">
+                                        <img src="./images/Eye icon (1).svg" class="eyeIcon" alt="eyeIcon">
+                                                                
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </a>
+
+
+
+                    </li>
+
+                </ul>
+            </div>
+
+        </aside>
+
+        <main class="main_container">
+            <div class="sort_container">
+                <div id="sort_by">
+                    <span id="sort_text">Sorting_by:</span>
+                    <span id="top_match">Top match</span>
+
+                    <img src="./images/bottomarrow.svg" alt="Dropdown arrow"" id="sort_up" />
+
+                </div>
+                <div class=" sort_options">
+
+
+                    <div class="sort_option selected_sort">Top match</div>
+                    <div class="sort_option">Newest</div>
+                    <div class="sort_option">Latest</div>
+
+
+                </div>
+            </div>
+            <div class="alert_container">
+                <div class="alert_main" style="flex:1">
+                    <div class="job_position">
+                        <span class="title_position">UI Designer in Egypt
+                        </span>
+                        <span class="found_position">70 job positions</span>
+                    </div>
+                    <div class="alert_active">
+                        <span class="alert_set">Set alert
+                        </span>
+                        <img src="./images/Default.svg" alt="alertjob" id="alertjob" />
+
+                    </div>
+                </div>
+                <div class="btnmenu_left" id="btnmenu_left">
+                    <img src="./images/gg_menu.svg" alt="menu_icon">
+                </div>
+            </div>
+
+            <div class="Job_announcement selected_job">
+                <div style="display: flex;" class="job_layertop">
+                    <div class="">
+                        <div class="job_top">
+                            <img src="./images/company1.svg" alt="company-logo">
+                            <div class="job_details">
+                                <div class="job_title">Gaming UI designer</div>
+                                <div class="company_name">Rockstar Games</div>
+                            </div>
+                        </div>
+                        <div class="job_middle">
+                            <div class="job_location">
+                                <img src="./images/location.svg" alt="location_logo">
+                                <span class="location_company">ElMansoura, Egypt</span>
+                            </div>
+                            <div class="date_job">
+                                <img src="./images/days.svg" alt="date_job">
+                                <span class="days_job">10 days ago</span>
+
+                            </div>
+                        </div>
+                        <div class="employment_details">
+                            <div class="experience-num job_typeselected">0 - 3y of exp</div>
+                            <div class="employment-type job_typeselected">Full time</div>
+                            <div class="employment_location job_typeselected">Remote</div>
+                        </div>
+                    </div>
+                    <div class="favorite">
+                        <img src="./images/favorite.svg" style="max-width: 100%;" alt="favorite-icon">
+                    </div>
+                </div>
+                <div class="job_bottom">
+                    Creative / Design - IT / Software development - Gaming
+                </div>
+            </div>
+            <div class="Job_announcement">
+                <div style="display: flex;" class="job_layertop">
+                    <div class="">
+                        <div class="job_top">
+                            <img src="./images/image.svg" alt="company-logo">
+                            <div class="job_details">
+                                <div class="job_title">Gaming UI designer</div>
+
+                                <div class="company_name">Egabi</div>
+                            </div>
+                        </div>
+                        <div class="job_middle">
+                            <div class="job_location">
+                                <img src="./images/location.svg" alt="location_logo">
+                                <span class="location_company">Cairo, Egypt</span>
+                            </div>
+                            <div class="date_job">
+                                <img src="./images/days.svg" alt="date_job">
+                                <span class="days_job">month ago</span>
+
+                            </div>
+                        </div>
+                        <div class="employment_details">
+                            <div class="experience-num">0 - 3y of exp</div>
+                            <div id="employment-type">Full Time</div>
+                            <div id="employment_location">Hybrid</div>
+                        </div>
+                    </div>
+                    <div class="favorite">
+                        <img src="./images/favorite.svg" style="max-width: 100%;" alt="favorite-icon">
+                    </div>
+                </div>
+                <div class="job_bottom">
+                    Creative / Design - IT / Software development - Gaming
+                </div>
+            </div>
+            <div class="Job_announcement">
+                <div style="display: flex;" class="job_layertop">
+                    <div class="">
+                        <div class="job_top">
+                            <img src="./images/company2.svg" alt="company-logo">
+                            <div class="job_details">
+                                <div class="job_title">React Frontend developer</div>
+                                <div class="company_name">Magara</div>
+                            </div>
+                        </div>
+                        <div class="job_middle">
+                            <div class="job_location">
+                                <img src="./images/location.svg" alt="location_logo">
+                                <span class="location_company">Cairo, Egypt</span>
+                            </div>
+                            <div class="date_job">
+                                <img src="./images/days.svg" alt="date_job">
+                                <span class="days_job">month ago</span>
+
+                            </div>
+                        </div>
+                        <div class="employment_details">
+                            <div class="experience-num">5 - 7y of exp</div>
+                            <div id="employment-type">Freelance</div>
+                            <div id="employment_location">Remote</div>
+                        </div>
+                    </div>
+                    <div class="favorite">
+                        <img src="./images/favorite.svg" style="max-width: 100%;" alt="favorite-icon">
+                    </div>
+                </div>
+                <div class="job_bottom">
+                    Creative / Design - IT / Software development - Gaming
+                </div>
+            </div>
+            <div class="pages_numbers">
+                <span class="page_unselect">
+                    <img src="./images/Vector.svg" alt="left-arrow">
+
+                </span>
+                <span class="page_unselect">
+                    1
+                </span>
+                <span class="page_selected">
+                    2
+                </span>
+                <span class="page_unselect">
+                    3
+                </span>
+                <span class="page_unselect">
+                    <img src="./images/Vector (1).svg" alt="right_arrow">
+                </span>
+            </div>
+        </main>
+    </div>
+    <div id="overlay" class="overlay"></div>
+<script src="js/script.js"></script>
+</body>
+
+</html>
